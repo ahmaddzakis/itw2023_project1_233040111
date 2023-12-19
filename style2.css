@@ -1,0 +1,388 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  background-color: #bb9cc0;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  background-color: #ff90bc;
+  color: #fed9ed;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  height: 45px;
+}
+
+nav > .wrapper {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 0 20px 0;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: #c552e1;
+}
+
+.menu > ul > li > a:hover {
+  color: #fed9ed;
+  transition: 300ms;
+}
+/* Navbar End */
+
+/* Hero */
+header {
+  background-image: url(img/bgpink.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 10px black;
+  letter-spacing: 5px;
+}
+
+.header-jumbotron {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-jumbotron > h4 {
+  color: #fff;
+  font-size: 4rem;
+  margin: 0;
+  padding: 15px;
+  border: 5px solid #fed9ed;
+  border-radius: 60px 0 60px 0;
+}
+
+.header-jumbotron > h3 {
+  color: #fed9ed;
+  margin: 0;
+  padding: 5px;
+  line-height: 4rem;
+}
+/* Hero End */
+
+/* About */
+#about {
+  background-color: #fed9ed;
+  color: #333;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+}
+
+#about > .wrapper {
+  padding: 50px 0 50px 0;
+}
+
+#about > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+#about > .wrapper > p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+#about > .wrapper > div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about > .wrapper > div > .foto > img {
+  max-width: 100%;
+}
+
+#about > .wrapper > div > .foto {
+  width: 30%;
+  margin-right: 20px;
+  border: 5px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#about > .wrapper > div > .deskripsi {
+  width: 70%;
+  padding: 20px;
+  margin: 10;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+#about > .wrapper > div > .deskripsi > p {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+#about > .wrapper > div > .deskripsi > .social {
+  width: 30%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about > .wrapper > div > .deskripsi > .social > a {
+  color: #9bb8cd;
+}
+
+#about > .wrapper > div > .deskripsi > .social > a:hover {
+  color: #fed9ed;
+  transition: 1s;
+}
+/* Akhir About */
+
+/* Skills */
+#skills {
+  background-color: #ffc0d9;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+#skills > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+#skills > .wrapper > h4 > span {
+  color: #f3f8ff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 50px;
+}
+
+.grid > .item {
+  color: #f3f8ff;
+  border: 1px solid #298ed6;
+  border-radius: 5px;
+  background-color: #c683d7;
+  text-align: center;
+}
+
+.grid > .item > h5 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #298ed6;
+  padding: 0;
+  margin: 0;
+}
+
+.grid > .item > p {
+  padding: 0 20px;
+}
+
+.grid > .item > p > i {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+/* Akhir Skills */
+
+/* Projects */
+#projects {
+  background-color: #f875aa;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+}
+
+#projects > .wrapper {
+  padding: 50px 0 50px 0;
+}
+
+#projects > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+#projects > .wrapper > h4 > span {
+  color: #f3f8ff;
+}
+
+#projects > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+#projects > .wrapper > h4 > span {
+  color: #f3f8ff;
+}
+
+#projects > .wrapper > p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.poto {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  gap: 30px;
+}
+
+.poto > .item {
+  color: #f3f8ff;
+  border: 1px solid #b9b93d;
+  border-radius: 5px;
+  background-color: #f8bdeb;
+  text-align: center;
+}
+
+.poto > .item > h5 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #b9b93d;
+  padding: 0;
+  margin: 0;
+}
+
+.poto > .item > p {
+  padding: 0 20px;
+}
+
+.poto > .item > p > a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 20px gold;
+}
+
+.poto > .item > img {
+  width: 200px;
+  border: 1px solid #b9b93d;
+  border-radius: 20px;
+  margin: 5px;
+  transition: 2s;
+}
+
+.poto > .item > img:hover {
+  box-shadow: 2px 2px 10px #b9b93d;
+  transform: scale(110%);
+  border-radius: 5px;
+}
+/* Akhir Projects */
+
+/* Contact */
+#contact {
+  padding: 0;
+  text-decoration: none;
+  width: 500px;
+  margin: 50px auto;
+  border: 3px solid #333;
+  border-radius: 5px;
+  background-color: #fed9ed;
+  padding: 20px;
+}
+
+.judul {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 6px 0 16px 0;
+}
+
+textarea {
+  height: 100px;
+}
+
+.send {
+  color: white;
+  background-color: #298ed6;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: 300ms;
+}
+
+.send:hover {
+  background-color: #bb9cc0;
+  transform: scale(90%);
+}
+
+footer {
+  color: white;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+footer > p > a {
+  color: #f3f8ff;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+footer > p > a:hover {
+  color: #9bb8cd;
+}
+
+/* Akhir Contact */
